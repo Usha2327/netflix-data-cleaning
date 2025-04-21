@@ -12,7 +12,7 @@
    - Removed duplicate entries based on the `show_id` column using Excel’s `Remove Duplicates` tool.
 
 2. **Renamed Headers**  
-   - Changed eg:-`show_id` to `Show_Id` for better readability and uniform formatting across columns.
+   - Changed (eg:-`show_id` to `Show_Id`) for better readability and uniform formatting across columns.
 
 3. **Fixed File Format Issue with Notepad++**  
    - Resolved a format-breaking issue in the `Show_Id` column caused by extra quotes (e.g., `Flying Fortress`) using Notepad++.
@@ -34,7 +34,7 @@
 7. **Created a Duplicate Sheet for Category Mapping**  
    - Created a new sheet `Category Mapping` with only `Show_Id` and `listed_in` columns.
    - Split `listed_in` values (which had multiple genres per show) into **multiple rows**, and trimmed extra spaces for clean categorization.
-   - [Reason: Creating a separate sheet for category mapping helps in genre-wise analysis by separating multiple categories per show into individual rows. This makes it easier to filter, group, or count shows by individual genres]
+   - [Reason: Creating a separate sheet for category mapping helps in genre-wise analysis by separating multiple categories per show into individual rows. This makes it easier to filter, group or count shows by individual genres]
 
 
 
